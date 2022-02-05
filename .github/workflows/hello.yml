@@ -1,0 +1,10 @@
+name: echo hello world
+
+on: [push]
+
+jobs:
+  echo-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo hello
+        run: echo "Hello VBR"
